@@ -1,0 +1,134 @@
+<html>
+
+<head>
+    <title>TypeScript</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../css/test.css" />
+</head>
+
+<body align="center" style="width:900px;margin-left:200px;">
+    <div class="register-form">
+        <h3>修改</h3>
+        </br>
+
+        <!-- 姓名和性别 -->
+        <div class="col-md-12">
+            <div class="col-md-6">
+                <div class="col-md-3" style="text-align:right">
+                    <strong>姓名：</strong>
+                </div>
+                <div class="col-md-9" style="text-align:left;">
+                    <input type="text" id="newName" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="col-md-3" style="text-align:right">
+                    <strong>性别：</strong>
+                </div>
+                <div class="col-md-9" style="text-align:left">
+                    <select style="width:100px;" id="newGender">
+                            <option selected="selected">男</option>
+                            <option>女</option>
+                        </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- 年龄和婚否 -->
+        <div class="col-md-12" style="margin-top:20px;">
+            <div class="col-md-6">
+                <div class="col-md-3" style="text-align:right">
+                    <strong>年龄：</strong>
+                </div>
+                <div class="col-md-9" style="text-align:left;">
+                    <input type="number" id="newAge" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="col-md-3" style="text-align:right">
+                    <strong>婚否：</strong>
+                </div>
+                <div class="col-md-9" style="text-align:left">
+                    <select style="width:100px;" id="newMarry">
+                                    <option selected="selected">未婚</option>
+                                    <option>已婚</option>
+                                </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- 地址和证件类型 -->
+        <div class="col-md-12" style="margin-top:20px;">
+            <div class="col-md-6">
+                <div class="col-md-3" style="text-align:right">
+                    <strong>地址：</strong>
+                </div>
+                <div class="col-md-9" style="text-align:left;">
+                    <input type="text" id="newAddress" />
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="col-md-3" style="text-align:right">
+                    <strong>证件类型：</strong>
+                </div>
+                <div class="col-md-9" style="text-align:left">
+                    <select style="width:100px;" id="newIdType">
+                                        <option selected="selected">身份证</option>
+                                        <option>军人证</option>
+                                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- 证件号码 -->
+        <div class="col-md-12" style="margin-top:20px;">
+            <div class="col-md-6">
+                <div class="col-md-3" style="text-align:right">
+                    <strong>证件号码：</strong>
+                </div>
+                <div class="col-md-9" style="text-align:left;">
+                    <input type="text" style="width:280px;" id="newIdNumber" />
+                </div>
+            </div>
+        </div>
+
+        <!-- 联系方式 -->
+        <div class="col-md-12" style="margin-top:20px;">
+            <div class="col-md-6">
+                <div class="col-md-3" style="text-align:right">
+                    <strong>联系方式：</strong>
+                </div>
+                <div class="col-md-9" style="text-align:left;">
+                    <input type="text" id="newTel" />
+                </div>
+            </div>
+        </div>
+
+        <!-- 邮箱 -->
+        <div class="col-md-12" style="margin-top:20px;">
+            <div class="col-md-6">
+                <div class="col-md-3" style="text-align:right">
+                    <strong>联系邮箱：</strong>
+                </div>
+                <div class="col-md-9" style="text-align:left;">
+                    <input type="text" id="newEmail" />
+                </div>
+            </div>
+        </div>
+
+        <!-- 创建任务 -->
+        <div class="col-md-12" style="margin-top:40px;">
+            <button class="updateUser" style="margin-left:450px;">确定修改</button>
+        </div>
+
+    </div>
+</body>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/bootstrap.js"></script>
+<script type="text/javascript" src="../js/update.brow.js"></script>
+
+</html>
